@@ -35,6 +35,8 @@ p{
 }
 .author-text {
     font-size: 22px;
+    float: left;
+    padding: 30px 0 0 15px
 }
 .container {
     width: 1140px;
@@ -43,6 +45,7 @@ p{
 .blog-post {
     width: 75%;
     float: left;
+    padding-right: 15px;
 }
 .other-posts {
     width: 25%;
@@ -51,4 +54,13 @@ p{
 .author-box{
 border-top: 1px solid rgb(0, 0, 0);
 padding-top:20px
+}
+.other {
+    margin-bottom: 40px;
+}
+.author-box img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+float: left;
 }
